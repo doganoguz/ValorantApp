@@ -1,4 +1,4 @@
-package com.example.valorant
+package com.valorantui.app
 
 import io.flutter.embedding.android.FlutterActivity
 

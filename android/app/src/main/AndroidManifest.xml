@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.valorant">
+    package="com.valorantui.app">
    <application
         android:label="valorant"
         android:name="${applicationName}"

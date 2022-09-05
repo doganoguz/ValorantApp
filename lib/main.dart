@@ -41,7 +41,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
         title: 'Valorant',
         debugShowCheckedModeBanner: false,
-        initialRoute: '/home',
+        initialRoute: '/dashboard',
         routes: <String, WidgetBuilder>{
           '/dashboard': (BuildContext context) => new Dashboard(),
           '/welcome': (BuildContext context) => new Welcome(),

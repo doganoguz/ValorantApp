@@ -70,9 +70,7 @@ dependencies:
   webview_flutter: ^3.0.2
   json_serializable_dart: ^1.0.1
 
-  firebase_device_id: ^0.0.3
-
-  platform_device_id: ^1.0.1
+ 
   
   
 
@@ -121,9 +119,7 @@ dependencies:
   
   
   
-  firebase_messaging: ^13.0.0
-  flutter_local_notifications: ^9.0.0
-  firebase_core: ^1.13.1
+ 
   
   awesome_page_transitions: ^1.0.0
  
@@ -158,12 +154,31 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+
+flutter_icons:
+  image_path: "assets/images/logo.png"
+  remove_alpha_ios: true
+  android: true
+  ios: true
+
 flutter:
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/agents.png
+    - assets/images/weapons.png
+    - assets/images/ranks.png
+    - assets/images/sprays.png
+    - assets/images/playercards.png
+    - assets/images/maps.png
+    - assets/images/gunbuddies.png
+    - assets/images/wallpaper.png
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
