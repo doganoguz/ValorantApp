@@ -70,6 +70,7 @@ class _AgentsDetailsState extends State<AgentsDetails> {
             ),
             SingleChildScrollView(
               child: new Container(
+                padding: new EdgeInsets.all(20.0),
                 color: Colors.transparent,
                 child: new Column(
                   children: <Widget>[
@@ -113,7 +114,7 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                     SizedBox(height: 5),
                     Divider(
                       color: NowUIColors.beyaz,
-                      thickness: 0.3,
+                      thickness: 1.0,
                     ),
                     new Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -141,7 +142,7 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                     SizedBox(height: 5),
                     Divider(
                       color: NowUIColors.beyaz,
-                      thickness: 0.3,
+                      thickness: 1.0,
                     ),
                     new Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -169,7 +170,7 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                     SizedBox(height: 5),
                     Divider(
                       color: NowUIColors.beyaz,
-                      thickness: 0.3,
+                      thickness: 1.0,
                     ),
                   ],
                 ),
