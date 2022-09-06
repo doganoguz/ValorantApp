@@ -122,6 +122,7 @@ dependencies:
  
   
   awesome_page_transitions: ^1.0.0
+  page_animation_transition: ^0.0.9
  
   
   
@@ -176,8 +177,16 @@ flutter:
     - assets/images/sprays.png
     - assets/images/playercards.png
     - assets/images/maps.png
+    - assets/images/back.png
     - assets/images/gunbuddies.png
     - assets/images/wallpaper.png
+    - assets/images/agents/jett.png
+    - assets/images/agents/raze.png
+    - assets/images/agents/breach.png
+    - assets/images/agents/omen.png
+    - assets/images/agents/brimstone.png
+    - assets/images/agents/phoneix.png
+    - assets/images/agentdetailsbg.png
 
 
   # To add assets to your application, add an assets section, like this:

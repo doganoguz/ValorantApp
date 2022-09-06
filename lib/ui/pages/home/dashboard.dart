@@ -6,10 +6,14 @@ import 'package:dio/dio.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
+import 'package:get/get_navigation/src/routes/default_transitions.dart';
 
 import 'package:google_fonts/google_fonts.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:page_animation_transition/animations/bottom_to_top_transition.dart';
+import 'package:page_animation_transition/page_animation_transition.dart';
 import 'package:valorant/ui/constants/color.dart';
+import 'package:valorant/ui/pages/agents/agents.dart';
 
 import 'package:z_dialog/z_dialog.dart';
 
@@ -61,7 +65,11 @@ class _DashboardState extends State<Dashboard> {
                       ),
                     ),
                     child: new InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.of(context).push(PageAnimationTransition(
+                            page: Agents(),
+                            pageAnimationType: BottomToTopTransition()));
+                      },
                       child: Container(
                         color: NowUIColors.homecolorr,
                         height: 138,
