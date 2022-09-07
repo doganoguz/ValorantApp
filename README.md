@@ -7,7 +7,7 @@
 
 
 # Önizleme
-![](https://www.hizliresim.com/loakxid)
+![](https://i.hizliresim.com/loakxid.png)
 
 
 # Mimari
