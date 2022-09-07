@@ -12,13 +12,9 @@
 
 # Mimari
 
-- [x] Constant
-- [x] Utils
-- [x] Helper
-- [x] Models
-- [x] Page
-- [x] Widget
-- [x] Test
+- [x] UI
+- [x] Core
+
 
 # Tasarım Araçları
 
