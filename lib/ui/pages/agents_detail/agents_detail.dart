@@ -85,12 +85,12 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                           "assets/images/agents/jett.png",
                           height: 350,
                           width: 350,
-                        ), // LEFT // TOP // RIGHT // BOTTOM //
+                        ),
                       ],
                     ),
                     new Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
                           "Origin:",
@@ -100,7 +100,7 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                           ),
                         ),
                         SizedBox(
-                          width: 120,
+                          width: 170,
                         ),
                         Text(
                           "🇺🇸 United States",
@@ -117,8 +117,8 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                       thickness: 1.0,
                     ),
                     new Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
                           "Type:",
@@ -128,10 +128,10 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                           ),
                         ),
                         SizedBox(
-                          width: 120,
+                          width: 200,
                         ),
                         Text(
-                          "Controller",
+                          "🔥 Controller",
                           style: GoogleFonts.bowlbyOneSc(
                             color: NowUIColors.beyaz,
                             fontSize: 12,
@@ -145,8 +145,8 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                       thickness: 1.0,
                     ),
                     new Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
                         Text(
                           "Points For Ultimate:",
@@ -156,7 +156,7 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                           ),
                         ),
                         SizedBox(
-                          width: 120,
+                          width: 180,
                         ),
                         Text(
                           "6",
@@ -171,6 +171,181 @@ class _AgentsDetailsState extends State<AgentsDetails> {
                     Divider(
                       color: NowUIColors.beyaz,
                       thickness: 1.0,
+                    ),
+                    new Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text(
+                          "Description:",
+                          style: GoogleFonts.bowlbyOneSc(
+                            color: NowUIColors.redhome,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      child: Text(
+                        "Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.",
+                        style: GoogleFonts.bowlbyOneSc(
+                          color: NowUIColors.beyaz,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ),
+                    SizedBox(height: 5),
+                    Divider(
+                      color: NowUIColors.beyaz,
+                      thickness: 1.0,
+                    ),
+                    SizedBox(height: 15),
+                    new Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text(
+                          "Abilities:",
+                          style: GoogleFonts.bowlbyOneSc(
+                            color: NowUIColors.redhome,
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 15,
+                    ),
+                    Card(
+                      shape: RoundedRectangleBorder(
+                        side: BorderSide(
+                          color: NowUIColors.redhome,
+                        ),
+                      ),
+                      child: new InkWell(
+                        onTap: () {},
+                        child: Container(
+                          color: NowUIColors.homecolorr,
+                          height: 174,
+                          width: 308,
+                          child: Padding(
+                            padding: const EdgeInsets.only(
+                                bottom: 36.0, left: 12, top: 10),
+                            child: Wrap(
+                              spacing: 30,
+                              children: <Widget>[
+                                Column(
+                                  children: <Widget>[
+                                    new Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: <Widget>[
+                                        Text(
+                                          "Incendiary:",
+                                          style: GoogleFonts.bowlbyOneSc(
+                                            color: NowUIColors.redhome,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    SizedBox(
+                                      height: 8,
+                                    ),
+                                    new Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: <Widget>[
+                                        Image.asset(
+                                          "assets/images/incen.png",
+                                          height: 35,
+                                          width: 35,
+                                        ),
+                                        SizedBox(
+                                          width: 5,
+                                        ),
+                                        Text(
+                                          "Type:",
+                                          style: GoogleFonts.bowlbyOneSc(
+                                            color: NowUIColors.redhome,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                        SizedBox(
+                                          width: 5,
+                                        ),
+                                        Text(
+                                          "Damage",
+                                          style: GoogleFonts.bowlbyOneSc(
+                                            color: NowUIColors.beyaz,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    new Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: <Widget>[
+                                        SizedBox(
+                                          width: 40,
+                                        ),
+                                        Text(
+                                          "Cost:",
+                                          style: GoogleFonts.bowlbyOneSc(
+                                            color: NowUIColors.redhome,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                        SizedBox(
+                                          width: 5,
+                                        ),
+                                        Text(
+                                          "300",
+                                          style: GoogleFonts.bowlbyOneSc(
+                                            color: NowUIColors.beyaz,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    new Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.start,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: <Widget>[
+                                        Text(
+                                          "Description:",
+                                          style: GoogleFonts.bowlbyOneSc(
+                                            color: NowUIColors.redhome,
+                                            fontSize: 12,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                    SizedBox(
+                                      child: Text(
+                                        "Brimstone’s orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.",
+                                        style: GoogleFonts.bowlbyOneSc(
+                                          color: NowUIColors.beyaz,
+                                          fontSize: 10,
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
                     ),
                   ],
                 ),
