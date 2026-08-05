@@ -16,7 +16,7 @@
 - [x] Core
 
 
-# Tasarım Araçları
+# Tasarım
 
 - [x] Figma 🎨
 - [x] Kaynak: ❤️‍🔥 <a href="https://www.figma.com/file/rNKHNvlyvGvECX3ekiVVXW/Valorant---Game-Guide-App-(Community)?node-id=267%3A285" target="_blank"><b>Valorant App UI - Figma Community</b>
