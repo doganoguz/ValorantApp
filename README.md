@@ -2,7 +2,7 @@
 
 <b>Valorant Guide Nedir?</b>
 <br>
-❤️‍🔥 Valorant Guide, Flutter ile yapılmış bir UI çalışmasıdır.
+❤️‍🔥 Valorant Guide, Flutter ile yapılmış bir UI çalışması.
 
 
 
